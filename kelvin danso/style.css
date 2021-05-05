@@ -241,6 +241,27 @@ h3{
   flex-wrap: wrap;
   padding: 20px;
   position: relative;
+  top: 10px;
+  row-gap: 20px;
+}
+.contain{
+  position: relative;
+  top: 50px;
+  
+}
+.container3{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  position: relative;
   top: 100px;
   row-gap: 20px;
+}
+.title2{
+  position: relative;
+  top: 110px;
+  padding-left:20px ;
 }
