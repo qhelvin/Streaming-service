@@ -220,7 +220,8 @@ h3{
 }
 .title h1{
   padding-left: 20px;
-  color: black;
+  font-family: serif;
+  font-weight: 100;
 }
 .title p{
   position: relative;
@@ -273,6 +274,11 @@ h3{
   position: relative;
   top: 110px;
   padding-left:20px ;
+}
+.title2 h1{
+  font-family: serif;
+  font-weight: 100;
+  color: var(--text);
 }
 .footer{
   display: grid;
@@ -330,3 +336,9 @@ h3{
   padding-left: 30px;
   color: var(--text);
 }
+.wrapper{
+  padding-top: 0px;
+}
+
+
+
