@@ -32,7 +32,7 @@ header{
      color: #6f42c1;
 }
 .navigation a:last-child{
-  margin-left: 30%;
+  margin-left: 20%;
   background: var(--text);
   margin-top: 10px;
   color: var(--nav-background);
@@ -47,6 +47,9 @@ header{
   top: 11px;
   right: 300px;
 }
+.navigation img:hover{
+  cursor: pointer;
+}
 .head p{
   text-align: center;
   color: var(--text);
@@ -57,7 +60,7 @@ header{
   position: absolute;
   top: 19%;
   left:28% ;
-  height: 80px;
+  height: 70px;
   width: 900px;
   border:none;
   border-radius: 70px;
@@ -116,6 +119,9 @@ header{
 .ads img{
   height: 100px;
   padding-left: 250px;
+}
+.ads img:hover{
+  cursor: pointer;
 }
 .wrapper{
   position: relative;
@@ -305,9 +311,22 @@ h3{
 }
 .box3 p{
   position: relative;
-  top: 30px;
-  left: 20%;
+  top: 20%;
+  left: 10%;
   max-width:50ch;
   padding: 10px;
-  border: .4px solid var(--text);
+  border: 0.10rem solid var(--text);
+  color: var(--text);
+}
+.btn h3{
+  background: turquoise;
+  height: 40px;
+  width: 100px;
+  position: fixed;
+  bottom:0;
+  left: 94%;
+  border-radius: 30px;
+  padding: 10px;
+  padding-left: 30px;
+  color: var(--text);
 }
