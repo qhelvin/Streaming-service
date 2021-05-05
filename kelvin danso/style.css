@@ -1,6 +1,6 @@
 :root{
-  --nav-background:#39117a;;
-  --main-color:#6f42c1;;
+  --nav-background:rgb(33,30,66);
+  --main-color:rgb(68,64,111);
   --text:rgb(255, 255, 255);
 }
 *{
@@ -9,8 +9,11 @@
 html{
   line-height: 1.15;
   font-family: sans-serif;
-  background: #6f42c1;
+  background:var(--main-color);
   
+}
+body{
+  margin: 0;
 }
 header{
   background: var(--nav-background);
@@ -264,4 +267,47 @@ h3{
   position: relative;
   top: 110px;
   padding-left:20px ;
+}
+.footer{
+  display: grid;
+  grid-template-areas: 
+  "box1 box2 box3";
+  position: relative;
+  top: 250px;
+  height: 200px;
+  background: var(--nav-background);
+}
+.footer .box1{
+   grid-area: box1;
+  
+  padding: 50px;
+  padding-left: 200px;
+  color: var(--text);
+}
+.footer .box2{
+  grid-area: box2;
+
+  padding: 50px;
+  color: white;
+}
+.footer .box2 p{
+  max-width: 600px;
+}
+.box2 a{
+  text-decoration: none;
+  padding: 30px 15px;
+  color: var(--text);
+  text-align: center;
+}
+.footer .box3{
+  grid-area: box3;
+ 
+}
+.box3 p{
+  position: relative;
+  top: 30px;
+  left: 20%;
+  max-width:50ch;
+  padding: 10px;
+  border: .4px solid var(--text);
 }
