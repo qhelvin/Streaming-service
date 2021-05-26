@@ -342,3 +342,27 @@ h3{
 .btn:hover{
   cursor: pointer;
 }
+.vid{
+  position: absolute;
+  left: 58%;
+  top:100%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  display: none;
+  position: fixed;
+  top: 50%;
+  
+}
+.vid iframe:focus{
+     outline: none;
+}
+.close-btn{
+  position: absolute;
+  top: 2px;
+  right: 250px;
+  width: 30px;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 20px;
+  background: var(--text);
+}
